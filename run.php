@@ -10,7 +10,7 @@ $init = new Bom();
 
 //Eksekusi Call/Sms Boomber (Limit 3x/Jam)
 $init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
-$init->no = ""; //Nomer Hp tujuan
+$init->no = "081229961550"; //Nomer Hp tujuan
 
 if ($init->type == 1) {
 	for ($i=0; $i < 2; $i++) { 
